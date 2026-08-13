@@ -1,0 +1,11 @@
+﻿double totalCompra = 0.0;char continuarComprando = 's';
+while (continuarComprando == 's')
+
+{
+    Console.WriteLine("Digite o preço do item:");
+    double precoItem = Convert.ToDouble(Console.ReadLine());
+    totalCompra += precoItem;
+    Console.WriteLine("Deseja continuar adicionando itens? (s/n):");
+    continuarComprando = Convert.ToChar((Console.ReadLine().ToLower()[0]));
+
+}Console.WriteLine($"Total da compra: R$ {totalCompra:F2}");
