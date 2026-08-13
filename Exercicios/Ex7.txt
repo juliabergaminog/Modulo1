@@ -1,0 +1,13 @@
+﻿string SenhaCorreta = "Julia123";
+string SenhaDigitada = "Julia2010";
+if (SenhaCorreta == SenhaDigitada)
+
+{
+    Console.WriteLine($"Senha digitada: {SenhaDigitada}");
+    Console.WriteLine("A senha certa foi digitada. Acesso liberado");
+}
+
+else{
+    Console.WriteLine($"Senha digitada: {SenhaDigitada}");
+    Console.WriteLine("A senha está incorreta.");
+}

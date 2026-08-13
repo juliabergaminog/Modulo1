@@ -1,0 +1,17 @@
+﻿int Transporte = 3;
+switch (Transporte)
+{
+    case 1:
+        Console.WriteLine("Transporte curto: Vá a pé ou de bicicleta.");
+        break;
+    case 2:
+        Console.WriteLine("Transporte médio: Use transporte público ou carro.");
+        break;
+    case 3:
+        Console.WriteLine("Transporte longo: Considere avião ou ônibus de viagem.");
+        break;
+    default:
+        Console.WriteLine("Número inválido.");
+        break;
+
+}
