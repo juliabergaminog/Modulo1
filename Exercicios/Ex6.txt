@@ -1,0 +1,18 @@
+﻿double nota1 = 8.0;
+double nota2 = 9.0;
+double nota3 = 7.5;
+double media = (nota1 + nota2 + nota3) / 3;
+int frequencia = 90;
+bool aprovacao;
+
+if(media >= 7.0 && frequencia >= 75){
+	aprovacao = true;
+}
+
+else{
+	aprovacao = false;
+
+}
+
+Console.WriteLine("media do aluno:" + media.ToString("F2"));
+Console.WriteLine("aprovado:" + aprovacao);
